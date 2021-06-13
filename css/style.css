@@ -141,6 +141,7 @@ p img{
     display: inline-flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 .agf-s *{
     text-align: center;
