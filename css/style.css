@@ -15,27 +15,28 @@ h2{
     font-size: 20px;
     color: #123669;
     font-weight: bold;
+    margin-bottom: 30px;
 }
-h2::after{
+h2::before{
     content: "";
     display: block;
     height: 1px;
     width: 100%;
     background-color: #dddddd;
-    margin: 20px 0px;
+    margin: 40px 0px;
 }
 h2.fondo{
     font-size: 25px;
     color: #123669;
     font-weight: bold;
 }
-h2.fondo::after{
+h2.fondo::before{
     content: "";
     display: block;
     height: 2px;
     width: 100%;
     background-color: #123669;
-    margin: 20px 0px;
+    margin: 40px 0px;
 }
 .fondo-table{
     display: flex;
@@ -77,13 +78,21 @@ h2.fondo::after{
     width: 100%;
 }
 .v-column{
-    height: 500px;
     display: inline-flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     text-align: center;
     padding: 30px 3px;
+}
+.v-column .col-v-1{
+    height: 110px;
+}
+.v-column .col-v-2{
+    height: 220px;
+}
+.v-column .col-v-3{
+   
 }
 .fondo-1 .v-column{
     width: calc(33.33333% - 4px);
