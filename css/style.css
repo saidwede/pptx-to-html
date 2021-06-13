@@ -92,10 +92,10 @@ h2.fondo::before{
     height: 110px;
 }
 .v-column .col-v-2{
-    height: 220px;
+    height: 120px;
 }
 .v-column .col-v-3{
-   
+   height: 90px;
 }
 .fondo-1 .v-column{
     width: calc(33.33333% - 4px);
@@ -134,7 +134,12 @@ h2.fondo::before{
     }
 }
 img{
-    width: 100%;
+    width: 70%;
+}
+@media screen and (max-width: 767px) {
+    img{
+        width: 100%;
+    }
 }
 p img{
     margin-bottom: 20px;
