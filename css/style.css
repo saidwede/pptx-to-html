@@ -11,8 +11,11 @@ h1{
 section{
     margin-bottom: 75px;
 }
+p{
+    font-size: .95rem;
+}
 h2{
-    font-size: 20px;
+    font-size: 1.2375rem;
     color: #123669;
     font-weight: bold;
     margin-bottom: 30px;
@@ -26,7 +29,7 @@ h2::before{
     margin: 40px 0px;
 }
 h2.fondo{
-    font-size: 25px;
+    font-size: 1.2375rem;
     color: #123669;
     font-weight: bold;
 }
@@ -53,7 +56,7 @@ h2.fondo::before{
 }
 .fondos .title{
     width: 100%;
-    font-size: 20px;
+    font-size: 1.2375rem;
     height: 40px;
     display: inline-flex;
     justify-content: center;
@@ -101,11 +104,11 @@ h2.fondo::before{
     width: calc(50% - 3px);
 }
 .fondos .content .v-column h3{
-    font-size: 22px;
+    font-size: 1rem;
     font-weight: bold;
 }
 .fondos .content .v-column h4{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
 }
 @media screen and (max-width: 992px) {
@@ -156,7 +159,7 @@ p img{
     text-align: center;
 }
 .agf-s h3{
-    font-size: 16px;
+    font-size: 1rem;
     color: #123669;
     font-weight: bold;
     margin-top: 10px;
